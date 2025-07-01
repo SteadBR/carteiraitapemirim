@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1em;
+}
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+}
+#output {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ffcc00;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
